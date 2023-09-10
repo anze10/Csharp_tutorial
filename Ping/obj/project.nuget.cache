@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wUx+2BFfp+aYAB5b9gv3eJf5wFK4zhGr+3bcGm+HNZMABS77XB2/hYnfd1la9KQ4VWkCxrcNS4r848FkT2Uh6w==",
+  "success": true,
+  "projectFilePath": "/home/hp/c#/pinger/Ping/Ping/Ping.csproj",
+  "expectedPackageFiles": [
+    "/home/hp/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
