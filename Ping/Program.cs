@@ -12,7 +12,7 @@ internal class Program
         string data = "Learn to code";
         byte[] buffer = Encoding.ASCII.GetBytes(data);
         int timeout = 120;
-        string addr = "4.4.4.2";
+        string addr = "8.8.8.8";
         PingReply reply = pingsender.Send(addr,timeout,buffer,options);
         if(reply.Status == IPStatus.Success){
             Console.WriteLine("Response: {0}", reply.Status.ToString());
