@@ -5,6 +5,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        String IP;
+        IP = NetworkInterfaceComponent.IPv4.ToString();
+        Console.WriteLine(IP);
+        IP = Console.ReadLine();
         Ping pingsender = new Ping();
         PingOptions options = new PingOptions();
         
